@@ -15,7 +15,7 @@ let produtos = [
   {id:11, nome:"KIT 2 Camisa Gola Polo Alta Qualidade 100% Algodão Camiseta Básica Masculina Diversas Cores", preco:59.80, cat:"roupa", img:"https://down-br.img.susercontent.com/file/br-11134207-81ztx-mkk35oc66qyq6e@resize_w450_nl.webp", link:"https://s.shopee.com.br/50V7eIRIt9"},
   {id:12, nome:"Meia grossa 100% algodão cano alto kit com 06,12 ou 18 pares unissex", preco:41.42, cat:"roupa", img:"https://down-br.img.susercontent.com/file/sg-11134201-824gv-mfom4jrqe9zcba@resize_w450_nl.webp", link:"https://s.shopee.com.br/2VnmfjnDF7"},
   {id:13, nome:"Corta Vento Masculina Impermeável Semi Forrada PRETO Rock Saints", preco:56.42, cat:"roupa", img:"https://down-br.img.susercontent.com/file/br-11134207-81z1k-mgdobxinv6yvbc@resize_w450_nl.webp", link:"https://s.shopee.com.br/4qBhS3qrHO"},
-  {id:14, nome:"Calça Jeans Masculina Slim Elastano Atacado", preco:69.90, cat:"roupas", img:"https://down-br.img.susercontent.com/file/br-11134258-820lw-mlc5ivsid3bb6c", link:"https://s.shopee.com.br/1LbpHeuRDG"},
+  
   {id:15, nome:"KIT 2 SHORTS (DRY-FIT) BERMUDA COM ZIPER NO BOLSO", preco:59.99, cat:"roupa", img:"https://down-br.img.susercontent.com/file/br-11134207-7r98o-m17t33yh29hsa6@resize_w450_nl.webp", link:"https://s.shopee.com.br/2Vnmftni6k"},
   {id:16, nome:"Mochila Bolsa Masculina Impermeável Reforçada Promoção Cor Preta", preco:66.05, cat:"mochila", img:"https://down-br.img.susercontent.com/file/br-11134207-81ztc-mke1crgmbksie2@resize_w450_nl.webp", link:"https://s.shopee.com.br/30k3GtNeQZ"},
   {id:17, nome:"Mochila feminina Elegante em Couro Sintetico Impermeável Moda", preco:45.00, cat:"mochila", img:"https://down-br.img.susercontent.com/file/br-11134207-81z1k-me3rwldpvthfa4@resize_w450_nl.webp", link:"https://s.shopee.com.br/8V4zp12Rj3"},
@@ -28,20 +28,16 @@ let produtos = [
   {id:24, nome:"Kit Completo Karseell Máscara 500 g + condicionador 1L + Shampoo 1L + Óleo karseell P 50ml", preco:350.00, cat:"beleza", img:"https://down-br.img.susercontent.com/file/br-11134207-81z1k-mf4s139x9wxx29@resize_w450_nl.webp", link:"https://s.shopee.com.br/3LMtftm1QW"},
   
   // PRODUTOS DE BELEZA
-  {id:25, nome:"Sérum Facial Vitamina C Anti-Rugas", preco:35.90, cat:"beleza", img:"https://via.placeholder.com/150?text=Sérum+Facial", link:"https://s.shopee.com.br/exemplo1"},
-  {id:26, nome:"Máscara Facial Hidratante Premium", preco:28.00, cat:"beleza", img:"https://via.placeholder.com/150?text=Máscara+Facial", link:"https://s.shopee.com.br/exemplo2"},
-  {id:27, nome:"Creme Facial Noturno Regenerador", preco:45.00, cat:"beleza", img:"https://via.placeholder.com/150?text=Creme+Noturno", link:"https://s.shopee.com.br/exemplo3"},
-  {id:28, nome:"Paleta de Sombras 12 Cores Matte", preco:32.90, cat:"beleza", img:"https://via.placeholder.com/150?text=Paleta+Sombras", link:"https://s.shopee.com.br/exemplo4"},
-  {id:29, nome:"Batom Líquido Matte Longa Duração", preco:22.00, cat:"beleza", img:"https://via.placeholder.com/150?text=Batom+Líquido", link:"https://s.shopee.com.br/exemplo5"},
+  {id:25, nome:"Linha Paixão - Framboesa Negra", preco:11.99, cat:"beleza", img:"https://down-bs-br.img.susercontent.com/br-11134207-7r98o-lksgd6u6hehk0b.webp", link:"https://s.shopee.com.br/BPtMV3npm"},
+  {id:26, nome:"Kit Top Creme + Body Splash baunilha", preco:55.38, cat:"beleza", img:"https://down-bs-br.img.susercontent.com/br-11134207-81z1k-mfx3kvde44xxfd.webp", link:"https://s.shopee.com.br/1Lbqkj60G3"},
+  {id:27, nome:"Creme Para Pentear Definição Natural 1kg", preco:35.80, cat:"beleza", img:"https://down-bs-br.img.susercontent.com/sg-11134201-7raud-maol4jy9snzq8a.webp", link:"https://s.shopee.com.br/2LUNwP6Iy1"},
+ 
   
   // PRODUTOS DE PERFUME
-  {id:30, nome:"Perfume Feminino Floral 100ml", preco:89.90, cat:"perfume", img:"https://via.placeholder.com/150?text=Perfume+Feminino", link:"https://s.shopee.com.br/exemplo6"},
-  {id:31, nome:"Perfume Masculino Amadeirado 100ml", preco:85.00, cat:"perfume", img:"https://via.placeholder.com/150?text=Perfume+Masculino", link:"https://s.shopee.com.br/exemplo7"},
-  {id:32, nome:"Colônia Infantil Frutas 75ml", preco:35.00, cat:"perfume", img:"https://via.placeholder.com/150?text=Colônia+Infantil", link:"https://s.shopee.com.br/exemplo8"},
-  {id:33, nome:"Perfume Unissex Fresco 100ml", preco:75.00, cat:"perfume", img:"https://via.placeholder.com/150?text=Perfume+Unissex", link:"https://s.shopee.com.br/exemplo9"},
-  {id:34, nome:"Spray Corporal Perfumado 200ml", preco:28.90, cat:"perfume", img:"https://via.placeholder.com/150?text=Spray+Corporal", link:"https://s.shopee.com.br/exemplo10"}
-];
-
+  {id:30, nome:"Body Splash Barbours Beauty Very Sexy Spray 200 ML", preco:48.77, cat:"perfume", img:"https://down-bs-br.img.susercontent.com/sg-11134201-824g7-mf2x4d04hssr04.webp", link:"https://s.shopee.com.br/8phrgwkLkI"},
+  {id:31, nome:"Kit Até 2 Perfumes Masculinos Arabes Asad - Amadeirado, Fixaçao Prolongada e Elegância", preco:24.98, cat:"perfume", img:"https://down-bs-br.img.susercontent.com/br-11134207-7r98o-m7n6xkj2tmiqd1.webp", link:"https://s.shopee.com.br/8phrhDUTca"},
+  
+]
 let favoritos = [];
 let carrinho = [];
 let filtroAtual = 'all';

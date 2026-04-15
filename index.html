@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- TELA DE PRODUTOS -->
+<div id="telaProdutos" class="tela-container ativa">
+  <header>
+    <h2>🔥 Achadinhos</h2>
+  </header>
+
+  <div class="search-box">
+    <input type="text" id="search" placeholder="🔍 Buscar produtos...">
+  </div>
+
+  <nav class="categories">
+    <button onclick="filtrarPorCategoria('all')">Todos</button>
+    <button onclick="filtrarPorCategoria('gamer')">Gamer</button>
+    <button onclick="filtrarPorCategoria('eletronico')">Eletrônicos</button>
+    <button onclick="filtrarPorCategoria('roupa')">Roupas</button>
+    <button onclick="filtrarPorCategoria('mochila')">Mochilas</button>
+    <button onclick="filtrarPorCategoria('beleza')">Beleza</button>
+    <button onclick="filtrarPorCategoria('perfume')">Perfumes</button>
+  </nav>
+
+  <div id="gridProdutos" class="grid"></div>
+</div>
+
+<!-- TELA DE FAVORITOS -->
+<div id="telaFavoritos" class="tela-container">
+  <header>
+    <button class="btn-voltar" onclick="voltarParaProdutos()">← Voltar</button>
+    <h2>⭐ Meus Favoritos</h2>
+  </header>
+  <div id="gridFavoritos" class="grid"></div>
+</div>
+
+<!-- TELA DE CARRINHO -->
+<div id="telaCarrinho" class="tela-container">
+  <header>
+    <button class="btn-voltar" onclick="voltarParaProdutos()">← Voltar</button>
+    <h2>🛒 Meu Carrinho</h2>
+  </header>
+  <div id="gridCarrinho" class="grid"></div>
+  <div id="resumoCarrinho" class="resumo-carrinho"></div>
+</div>
+
+<!-- MENU INFERIOR (APP STYLE) -->
+<div class="bottom-menu">
+  <button onclick="irParaProdutos()" title="Produtos" class="menu-btn-produtos">🏠</button>
+  <button onclick="irParaFavoritos()" title="Favoritos" class="menu-btn-favoritos">⭐</button>
+  <button onclick="irParaCarrinho()" title="Carrinho" class="menu-btn-carrinho">🛒</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -36,7 +36,13 @@ let produtos = [
   // PRODUTOS DE PERFUME
   {id:30, nome:"Body Splash Barbours Beauty Very Sexy Spray 200 ML", preco:48.77, cat:"perfume", img:"https://down-bs-br.img.susercontent.com/sg-11134201-824g7-mf2x4d04hssr04.webp", link:"https://s.shopee.com.br/8phrgwkLkI"},
   {id:31, nome:"Kit Até 2 Perfumes Masculinos Arabes Asad - Amadeirado, Fixaçao Prolongada e Elegância", preco:24.98, cat:"perfume", img:"https://down-bs-br.img.susercontent.com/br-11134207-7r98o-m7n6xkj2tmiqd1.webp", link:"https://s.shopee.com.br/8phrhDUTca"},
-  
+    {id:35, nome:"Vestido Longo Casual", preco:41.99, cat:"roupa", img:"https://down-cvs-br.img.susercontent.com/br-11134207-81ztc-mke9y8fknmyr42.webp", link:"https://s.shopee.com.br/16eTYORau"},
+  {id:36, nome:"Video Game Stick", preco:110.98, cat:"gamer", img:"https://down-cvs-br.img.susercontent.com/sg-11134201-824g5-me1atdxfaiv9a.webp", link:"https://s.shopee.com.br/3LN6Rx5VQh"},
+  {id:37, nome:"Controle PS2 com/sem fio", preco:28.78, cat:"gamer", img:"https://down-cvs-br.img.susercontent.com/br-11134207-7r98o-lxo4a4zewdkv68.webp", link:"https://s.shopee.com.br/1Blbs6ZgRM"},
+  {id:38, nome:"Carregador Duplo PS4", preco:28.78, cat:"gamer", img:"https://down-cvs-br.img.susercontent.com/br-11134211-7r98p-lmca5z1biad273.webp", link:"https://s.shopee.com.br/10zBg1MTwn"},
+  {id:39, nome:"Multifuncional Pulverizador Borrifador Pressão", preco:34.80, cat:"eletronico", img:"https://down-cvs-br.img.susercontent.com/cn-11134207-820l4-mlvsf7ol0d8h63.webp", link:"https://s.shopee.com.br/AKWqnLlev3"},
+  {id:40, nome:"Carregador para Carro 6 Portas USB", preco:10.33, cat:"eletronico", img:"https://down-sg-11134301-7raur-mau8m0uy2q1v71.webp", link:"https://s.shopee.com.br/6L0i2BBVcu"}
+
 ]
 let favoritos = [];
 let carrinho = [];
